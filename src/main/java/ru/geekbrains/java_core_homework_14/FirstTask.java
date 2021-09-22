@@ -5,9 +5,6 @@ import java.util.List;
 
 public class FirstTask {
 
-    public FirstTask(int[] myArrTaskOne) {
-    }
-
     public static int[] newArr(int[] myArrTaskOne) {
         List<Integer> tempArr = new ArrayList<>();
         int fourSearch = 0;

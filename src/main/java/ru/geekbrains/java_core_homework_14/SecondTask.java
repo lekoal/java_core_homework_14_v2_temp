@@ -1,13 +1,7 @@
 package ru.geekbrains.java_core_homework_14;
 
 public class SecondTask {
-    private final int[] myArrTaskTwo;
-
-    public SecondTask(int[] myArrTaskTwo) {
-        this.myArrTaskTwo = myArrTaskTwo;
-    }
-
-    public boolean isHereOneAndFour() {
+    public static boolean isHereOneAndFour(int[] myArrTaskTwo) {
         int oneCount = 0;
         int fourCount = 0;
         for (int i : myArrTaskTwo) {

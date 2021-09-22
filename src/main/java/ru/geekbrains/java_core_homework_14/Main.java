@@ -24,7 +24,7 @@ public class Main {
     }
 
     public static void taskTwo(int[] arr) {
-        SecondTask secondTask = new SecondTask(arr);
-        System.out.println(secondTask.isHereOneAndFour());
+        SecondTask secondTask = new SecondTask();
+        System.out.println(secondTask.isHereOneAndFour(arr));
     }
 }
